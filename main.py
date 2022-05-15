@@ -19,7 +19,7 @@ api_id = Config.APP_ID,
 api_hash = Config.API_HASH,
 bot_token = Config.TG_BOT_TOKEN,
 
-bot = Client("Cookie", bot_token=bot_token, api_id=api_id, api_hash=api_hash)
+bot = Client("Cookie", bot_token= Config.TG_BOT_TOKEN, api_id= Config.APP_ID, api_hash= Config.API_HASH )
 
 async def callback(curr, size, chat_id, message_id):
     try:
