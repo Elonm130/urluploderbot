@@ -15,9 +15,9 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 link = '🔗'
 bread = '🥖'
 edit_timeout = 0
-api_id = '<enter your api id>'
-api_hash = '<enter your api hash>'
-bot_token = '<enter your bot token>'
+api_id = Config.APP_ID,
+api_hash = Config.API_HASH,
+bot_token = Config.TG_BOT_TOKEN,
 
 bot = Client("Cookie", bot_token=bot_token, api_id=api_id, api_hash=api_hash)
 
