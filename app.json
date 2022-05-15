@@ -14,7 +14,7 @@
       "value": "ANYTHING"
     },
     "TG_BOT_TOKEN": {
-      "description": "Your bot token from @botfather.",
+      "description": "Your bot token from @botfather, as a string.",
       "value": ""
     },
     "APP_ID": {
