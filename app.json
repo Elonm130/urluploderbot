@@ -9,6 +9,10 @@
   "website": "https://github.com/Elonm130",
   "repository": "https://github.com/Elonm130/Prabhat17",
   "env": {
+    "WEBHOOK": {
+      "description": "Leave this as it is!",
+      "value": "ANYTHING"
+    },
     "TG_BOT_TOKEN": {
       "description": "Your bot token from @botfather.",
       "value": ""
