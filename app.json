@@ -6,6 +6,7 @@
     "url",
     "uploader"
   ],
+  "success_url": "https://t.me/Prabhat22_bot",
   "website": "https://github.com/Elonm130",
   "repository": "https://github.com/Elonm130/Prabhat17",
   "env": {
